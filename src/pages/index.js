@@ -2,7 +2,6 @@ import Head from "next/head";
 import logo from "../../public/AscensionLogo.png";
 import Image from "next/image";
 import { useState } from "react";
-import { headers } from "../../next.config";
 
 export default function Home() {
   const [email, setEmail] = useState("");
@@ -40,8 +39,8 @@ export default function Home() {
           src={logo}
           alt='Logo'
           className='logo'
-          width={700}
-          height={700}
+          width={500}
+          height={500}
         />
         <h1 className='description'>
           To attend our upcoming events enter your email below:
