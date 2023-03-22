@@ -38,7 +38,7 @@ export default function Home() {
         <h1 className='logo'>TMG</h1>
         <p className='subheading'>The Masonry Group</p>
         <p className='description'>
-          We are currently undergoing maintnece, please check back soon
+          We are currently undergoing maintenance, please check back soon
         </p>
       </main>
     </>
