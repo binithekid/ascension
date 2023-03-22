@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap");
+
 html,
 body {
   padding: 0;
   margin: 0;
   overflow: hidden;
+  color: white;
 }
 
 .main {
@@ -17,56 +21,21 @@ body {
   height: 100vh;
 }
 
-.input {
-  border: 1px solid white;
-  border-radius: 2px;
+.logo {
+  font-family: "Oswald", sans-serif;
+  font-size: 6em;
+}
+
+.subheading {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin-top: -80px;
+  text-transform: uppercase;
 }
 
 .description {
-  color: white;
-  margin-top: -150px;
-  font-family: "Courier New", Courier, monospace;
   font-weight: 100;
-  margin-bottom: 10px;
-  font-size: 1.2rem;
-  padding: 15px;
-  text-align: center;
-}
-
-.formContainer {
-  margin-bottom: 10px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-}
-
-.logo {
-  margin-top: -200px;
-}
-
-.container {
-  margin: 0;
-}
-
-.submitButton {
-  font-family: "Courier New", Courier, monospace;
-  padding: 7px 20px;
-  background-color: white;
-  border: none;
-  border-radius: 2px;
-}
-
-@media screen and (max-width: 500px) {
-  .description {
-    font-size: 1rem;
-  }
-  .logo {
-    margin-top: -250px;
-  }
-}
-
-.successMessage {
-  font-size: 0.9rem;
-  color: green;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  padding: 10px;
 }
